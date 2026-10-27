@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Restaurant & Hearth",
+  "description": "Fine dining restaurant with an online reservation system, digital menu, featured chef specials, reviews, heritage story, photo gallery, and Google Map directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
