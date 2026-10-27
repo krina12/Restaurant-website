@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuickBook, onExploreMenu }) => {
       <div className="absolute inset-0 z-0">
         <img
           src={RESTAURANT_IMAGES.hero}
-          alt="Aurelia main dining room at dusk with glowing candles and wine wall"
+          alt="Shivar main dining room at dusk with glowing candles and wine wall"
           className="w-full h-full object-cover object-center filter brightness-[0.62] contrast-[1.05]"
           referrerPolicy="no-referrer"
         />

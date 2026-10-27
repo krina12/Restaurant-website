@@ -261,7 +261,7 @@ export const Reviews: React.FC = () => {
 
             <div className="space-y-1">
               <span className="text-xs uppercase tracking-widest text-[#C5A059] font-medium">Guest Reflection</span>
-              <h3 className="font-editorial text-2xl text-[#FDFBF7] font-medium">Share Your Aurelia Experience</h3>
+              <h3 className="font-editorial text-2xl text-[#FDFBF7] font-medium">Share Your Shivar Experience</h3>
               <p className="text-xs text-[#A1A1AA]">
                 Your review helps future guests navigate their culinary journey.
               </p>

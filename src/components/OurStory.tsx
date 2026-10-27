@@ -20,7 +20,7 @@ export const OurStory: React.FC = () => {
           </h2>
           <p className="text-sm sm:text-base text-[#A1A1AA] font-light leading-relaxed">
             From an intimate 24-seat woodfire hearth in Paris to the historic waterfront warehouse on San Francisco's 
-            Heritage Quay. Aurelia was conceived on a singular premise: that fire is not merely heat, but a living seasoning.
+            Heritage Quay. Shivar was conceived on a singular premise: that fire is not merely heat, but a living seasoning.
           </p>
         </div>
 
@@ -33,14 +33,14 @@ export const OurStory: React.FC = () => {
             </h3>
             
             <p>
-              When Master Chef Henri Aurelia opened our first kitchen on Rue de Seine in 1988, French fine dining was dominated 
-              by heavy sauces and masked reductions. Aurelia rebelled by installing an open hearth fueled by French vineyard trimmings 
+              When Master Chef Henri Shivar opened our first kitchen on Rue de Seine in 1988, French fine dining was dominated 
+              by heavy sauces and masked reductions. Shivar rebelled by installing an open hearth fueled by French vineyard trimmings 
               and seasoned beechwood—exposing raw ingredients to the primal truth of ember cooking.
             </p>
 
             <p>
               In 2004, the search for biodiversity led the team to Northern California. Here, surrounded by the marine upwelling of 
-              the Pacific Coast, the biodynamic farms of Sonoma County, and ancient orchards of almond and oak, Aurelia found its 
+              the Pacific Coast, the biodynamic farms of Sonoma County, and ancient orchards of almond and oak, Shivar found its 
               permanent soul in a converted 1894 maritime grain warehouse on Pier 14.
             </p>
 
@@ -62,7 +62,7 @@ export const OurStory: React.FC = () => {
           <div className="lg:col-span-6 relative rounded-xl overflow-hidden bg-[#14151A] border border-[#27272A] shadow-2xl">
             <img
               src={RESTAURANT_IMAGES.woodfire}
-              alt="Artisanal open woodfire hearth at Aurelia"
+              alt="Artisanal open woodfire hearth at Shivar"
               className="w-full h-[460px] object-cover object-center filter brightness-[0.88] hover:scale-105 transition-transform duration-700"
               referrerPolicy="no-referrer"
             />

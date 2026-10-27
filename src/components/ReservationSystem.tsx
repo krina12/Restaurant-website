@@ -138,7 +138,7 @@ export const ReservationSystem: React.FC<ReservationSystemProps> = ({
     e.preventDefault();
     if (!guestName || !email || !phone) return;
 
-    const ref = `AUR-${Math.floor(10000 + Math.random() * 90000)}`;
+    const ref = `SHV-${Math.floor(10000 + Math.random() * 90000)}`;
     const newBooking: Booking = {
       id: Date.now().toString(),
       referenceCode: ref,
@@ -191,13 +191,13 @@ export const ReservationSystem: React.FC<ReservationSystemProps> = ({
   const downloadCalendarEvent = (booking: Booking) => {
     const icsData = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Aurelia Restaurant//Reservation//EN
+PRODID:-//Shivar Restaurant//Reservation//EN
 BEGIN:VEVENT
-UID:${booking.referenceCode}@aureliasf.com
+UID:${booking.referenceCode}@shivarrestaurant.com
 DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z
 DTSTART:${booking.date.replace(/-/g, '')}T${booking.time.replace(':', '')}00
 DTEND:${booking.date.replace(/-/g, '')}T${Number(booking.time.split(':')[0]) + 2}${booking.time.split(':')[1]}00
-SUMMARY:Table Reservation at Aurelia (${booking.guests} Guests)
+SUMMARY:Table Reservation at Shivar (${booking.guests} Guests)
 DESCRIPTION:Reservation Ref: ${booking.referenceCode}\\nSeating: ${booking.seatingArea}\\nOccasion: ${booking.occasion}
 LOCATION:450 Heritage Quay Blvd, San Francisco, CA 94105
 STATUS:CONFIRMED
@@ -208,7 +208,7 @@ END:VCALENDAR`;
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', `aurelia-reservation-${booking.referenceCode}.ics`);
+    link.setAttribute('download', `shivar-reservation-${booking.referenceCode}.ics`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -379,7 +379,7 @@ END:VCALENDAR`;
                   <div>
                     <h3 className="text-lg text-[#FDFBF7] font-medium">Select Evening Date</h3>
                     <p className="text-xs text-[#A1A1AA] mt-0.5">
-                      Bookings available up to 60 days in advance. Aurelia is closed Mondays.
+                      Bookings available up to 60 days in advance. Shivar is closed Mondays.
                     </p>
                     <div className="mt-3 max-w-sm">
                       <input
@@ -657,7 +657,7 @@ END:VCALENDAR`;
             <form onSubmit={handleLookup} className="flex flex-col sm:flex-row items-center gap-3">
               <input
                 type="text"
-                placeholder="Enter booking reference (e.g. AUR-12345) or phone number..."
+                placeholder="Enter booking reference (e.g. SHV-12345) or phone number..."
                 value={lookupCode}
                 onChange={e => setLookupCode(e.target.value)}
                 className="flex-1 bg-[#18191E] border border-[#27272A] rounded px-4 py-2.5 text-xs text-[#FDFBF7] focus:border-[#C5A059] focus:outline-none"

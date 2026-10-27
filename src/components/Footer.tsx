@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
             {subscribed ? (
               <div className="p-3 bg-[#18191E] border border-[#C5A059] rounded text-xs text-[#C5A059] flex items-center gap-2">
                 <Check className="w-3.5 h-3.5" />
-                <span>You are subscribed to the Aurelia Gazette.</span>
+                <span>You are subscribed to the Shivar Gazette.</span>
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className="flex items-center gap-2">

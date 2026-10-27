@@ -189,7 +189,7 @@ export default function App() {
                   Table Reservations & Private Vault
                 </span>
                 <h1 className="font-editorial text-4xl sm:text-5xl text-[#FDFBF7] font-normal tracking-tight">
-                  Reserve Your Evening at Aurelia
+                  Reserve Your Evening at Shivar
                 </h1>
                 <p className="text-sm text-[#A1A1AA] max-w-2xl font-light leading-relaxed">
                   Join us around the live almond-wood hearth. We accommodate intimate celebrations, solo diners 
@@ -279,7 +279,7 @@ export default function App() {
               onOpenBooking={() => handleOpenBooking()}
             />
 
-            {/* 4. History & Story of Aurelia + Interactive Timeline */}
+            {/* 4. History & Story of Shivar + Interactive Timeline */}
             <OurStory />
 
             {/* 5. Curated Gallery of High-Quality Photos with Lightbox */}

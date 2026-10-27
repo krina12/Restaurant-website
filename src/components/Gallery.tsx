@@ -34,7 +34,7 @@ export const Gallery: React.FC = () => {
               <span>Visual Anthology</span>
             </div>
             <h2 className="font-editorial text-3xl sm:text-5xl font-normal text-[#FDFBF7] tracking-tight">
-              Aurelia in Light & Shadow
+              Shivar in Light & Shadow
             </h2>
             <p className="text-sm text-[#A1A1AA] max-w-xl">
               Glimpses of the amber-lit dining rooms, ember-roasted courses, and subterranean cellar reserves.

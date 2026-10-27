@@ -230,7 +230,7 @@ export const DirectionsAndContact: React.FC = () => {
                   <div className="bg-[#0D0E11]/90 backdrop-blur-md border border-[#27272A] px-3.5 py-2 rounded-lg text-xs space-y-0.5">
                     <div className="text-[#C5A059] font-medium uppercase tracking-wider flex items-center gap-1.5">
                       <MapPin className="w-3.5 h-3.5 text-[#C5A059]" />
-                      <span>Aurelia Restaurant & Hearth</span>
+                      <span>Shivar Restaurant & Hearth</span>
                     </div>
                     <div className="text-[11px] text-[#A1A1AA]">
                       {RESTAURANT_INFO.address}
@@ -242,13 +242,13 @@ export const DirectionsAndContact: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Center Pin Marker for Aurelia */}
+                {/* Center Pin Marker for Shivar */}
                 <div className="relative z-10 self-center my-auto flex flex-col items-center animate-bounce">
                   <div className="p-3 rounded-full bg-[#C5A059] text-black shadow-[0_0_25px_rgba(197,160,89,0.6)]">
                     <MapPin className="w-6 h-6 fill-current" />
                   </div>
                   <div className="mt-1 px-2.5 py-0.5 rounded bg-black/90 text-[11px] font-medium text-[#FDFBF7] border border-[#C5A059]">
-                    Aurelia Main Portico
+                    Shivar Main Portico
                   </div>
                 </div>
 
@@ -359,7 +359,7 @@ export const DirectionsAndContact: React.FC = () => {
                 </div>
                 <h4 className="font-editorial text-2xl text-[#FDFBF7]">Message Received</h4>
                 <p className="text-xs sm:text-sm text-[#A1A1AA] max-w-md mx-auto">
-                  Thank you for reaching out to Aurelia. Our maître d' or private events director will review your message 
+                  Thank you for reaching out to Shivar. Our maître d' or private events director will review your message 
                   and contact you shortly at <strong className="text-[#FDFBF7]">{contactEmail}</strong>.
                 </p>
                 <button

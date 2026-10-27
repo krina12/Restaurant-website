@@ -87,13 +87,13 @@ export interface DirectionRoute {
 }
 
 export const RESTAURANT_INFO = {
-  name: "Aurelia",
-  legalName: "L'Atelier Aurelia Restaurant & Hearth LLC",
+  name: "Shivar",
+  legalName: "Shivar Vegetarian Restaurant & Hearth LLC",
   tagline: "Woodfire Vegetarian Gastronomy & Coastal Terroir",
   address: "450 Heritage Quay Blvd, San Francisco, CA 94105",
   neighborhood: "Embarcadero Waterfront",
   phone: "+1 (415) 890-3400",
-  email: "reservations@aureliasf.com",
+  email: "reservations@shivarrestaurant.com",
   coordinates: {
     lat: 37.7915,
     lng: -122.3925
@@ -358,7 +358,7 @@ export const MENU_ITEMS: MenuItem[] = [
   },
   {
     id: "c2",
-    name: "Aurelia Golden Spritz",
+    name: "Shivar Golden Spritz",
     category: "drinks",
     price: 22,
     description: "Yellow Chartreuse, Italicus bergamot liqueur, clarified Meyer lemon, Brut Champagne, 24k gold shimmer.",
@@ -406,7 +406,7 @@ export const REVIEWS_DATA: ReviewItem[] = [
     date: "September 29, 2026",
     rating: 5,
     occasion: "Botanical Tasting Menu",
-    comment: "We flew in from London and booked Aurelia specifically for their 100% vegetarian hearth tasting. The tableside Valrhona chocolate sphere was theatrical and delicious. Flawless hospitality.",
+    comment: "We flew in from London and booked Shivar specifically for their 100% vegetarian hearth tasting. The tableside Valrhona chocolate sphere was theatrical and delicious. Flawless hospitality.",
     verified: true,
     dishRecommended: "Nocturne Valrhona & Smoked Blackberry"
   },
@@ -428,7 +428,7 @@ export const REVIEWS_DATA: ReviewItem[] = [
     date: "August 28, 2026",
     rating: 5,
     occasion: "Birthday Celebration",
-    comment: "As a lifelong vegetarian, dining at Aurelia brought tears to my eyes. A Michelin-level dining experience where every single dish is crafted with reverence for vegetables, fungi, and fire.",
+    comment: "As a lifelong vegetarian, dining at Shivar brought tears to my eyes. A Michelin-level dining experience where every single dish is crafted with reverence for vegetables, fungi, and fire.",
     verified: true,
     dishRecommended: "Charred Romanesco & Chanterelle Fricassee"
   }
@@ -439,7 +439,7 @@ export const CRITIC_REVIEWS: CriticReview[] = [
     id: "c-1",
     outlet: "The Michelin Guide",
     critic: "Inspectors' Verdict",
-    quote: "Aurelia elevates pure vegetarian cooking to the highest zenith of world gastronomy. Chef Elena Rostova coaxing smoky depths from wild mushrooms and California heirlooms over almond wood is transcendent.",
+    quote: "Shivar elevates pure vegetarian cooking to the highest zenith of world gastronomy. Chef Elena Rostova coaxing smoky depths from wild mushrooms and California heirlooms over almond wood is transcendent.",
     ratingBadge: "Two Michelin Stars · Green Star",
     year: "2026 Edition"
   },
@@ -455,7 +455,7 @@ export const CRITIC_REVIEWS: CriticReview[] = [
     id: "c-3",
     outlet: "Wine Spectator",
     critic: "Grand Award Panel",
-    quote: "With over 2,200 biodynamic and classic selections preserved in an architectural vault, Aurelia harmonizes fine wine with vegetarian gastronomy like nowhere else on earth.",
+    quote: "With over 2,200 biodynamic and classic selections preserved in an architectural vault, Shivar harmonizes fine wine with vegetarian gastronomy like nowhere else on earth.",
     ratingBadge: "Grand Award Winner",
     year: "2025 – 2026"
   }
@@ -503,13 +503,13 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   {
     year: "1988",
     title: "The Botanical Hearth in St. Germain",
-    description: "Master Chef Henri Aurelia opened a 24-seat atelier in Paris, introducing open-fire grilling to market vegetables and foraged wild fungi.",
+    description: "Master Chef Henri Shivar opened a 24-seat atelier in Paris, introducing open-fire grilling to market vegetables and foraged wild fungi.",
     location: "Rue de Seine, Paris"
   },
   {
     year: "2004",
     title: "The California Coast Migration",
-    description: "Captivated by Northern California's organic farms and biodynamic growers, the Aurelia family relocated to the historic Embarcadero waterfront.",
+    description: "Captivated by Northern California's organic farms and biodynamic growers, the Shivar family relocated to the historic Embarcadero waterfront.",
     location: "San Francisco, CA"
   },
   {
@@ -521,7 +521,7 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   {
     year: "2021",
     title: "Chef Elena Rostova Takes the Helm",
-    description: "Following tenures at Arpège and Geranium, Chef Elena Rostova pivoted Aurelia into a 100% vegetarian & plant-forward woodfire temple.",
+    description: "Following tenures at Arpège and Geranium, Chef Elena Rostova pivoted Shivar into a 100% vegetarian & plant-forward woodfire temple.",
     location: "Kitchen Leadership"
   },
   {
