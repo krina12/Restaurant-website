@@ -1,3 +1,17 @@
+import heroImage from "../assets/images/hero_restaurant_interior_1793094172948.jpg";
+import chefVegImage from "../assets/images/chef_veg_special_1793094909014.jpg";
+import woodfireImage from "../assets/images/restaurant_woodfire_hearth_1793094174668.jpg";
+import dessertImage from "../assets/images/restaurant_dessert_art_1793094174832.jpg";
+import wineCellarImage from "../assets/images/restaurant_wine_cellar_1793094174995.jpg";
+
+export const RESTAURANT_IMAGES = {
+  hero: heroImage,
+  chefVeg: chefVegImage,
+  woodfire: woodfireImage,
+  dessert: dessertImage,
+  wineCellar: wineCellarImage,
+};
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -102,7 +116,7 @@ export const CHEF_SPECIALS: ChefSpecial[] = [
     title: "Hearth-Roasted Maitake & Truffled Sunchoke",
     subtitle: "Wood-fired maitake mushroom steak, caramelized sunchoke velouté, golden chanterelles & 24k gold leaf",
     price: 48,
-    image: "/src/assets/images/chef_veg_special_1793094909014.jpg",
+    image: chefVegImage,
     chefQuote: "We roast wild maitake over cured red oak until the edges turn shatteringly crisp while retaining an earthy, unctuous center. It rests on an emulsion of slow-simmered winter sunchokes and foraged golden chanterelles.",
     sommelierPairing: "Domaine Leflaive Puligny-Montrachet 1er Cru",
     pairingVintage: "2021 Burgundy, France",
@@ -116,7 +130,7 @@ export const CHEF_SPECIALS: ChefSpecial[] = [
     title: "Kabocha Squash & Shaved Périgord Truffle",
     subtitle: "Ember-charred Japanese pumpkin, whipped almond ricotta, smoked sage reduction & candied pepitas",
     price: 44,
-    image: "/src/assets/images/restaurant_woodfire_hearth_1793094174668.jpg",
+    image: woodfireImage,
     chefQuote: "The high natural sugar of Kabocha caramelizes into deep honeyed notes when exposed to 800°F almond wood heat. Shaved black truffle provides the perfect earthy counterpoint.",
     sommelierPairing: "Château de Beaucastel Châteauneuf-du-Pape Blanc",
     pairingVintage: "2020 Rhône, France",
@@ -130,7 +144,7 @@ export const CHEF_SPECIALS: ChefSpecial[] = [
     title: "Nocturne Valrhona & Smoked Blackberry",
     subtitle: "70% Guanaja chocolate sphere, wild Oregon blackberry coulis, roasted cocoa nibs & edible violas",
     price: 28,
-    image: "/src/assets/images/restaurant_dessert_art_1793094174832.jpg",
+    image: dessertImage,
     chefQuote: "Dessert should surprise both the eye and the spirit. The warm smoked fruit compote is poured tableside, collapsing the dark chocolate dome into a warm silken ganache.",
     sommelierPairing: "Taylor Fladgate 30 Year Old Tawny Port",
     pairingVintage: "Douro Valley, Portugal",
@@ -144,7 +158,7 @@ export const CHEF_SPECIALS: ChefSpecial[] = [
     title: "Grand Reserve Sommelier Cellar Pairing",
     subtitle: "Five rare vintage botanical and biodynamic pours selected by Master Sommelier Camille Laurent",
     price: 135,
-    image: "/src/assets/images/restaurant_wine_cellar_1793094174995.jpg",
+    image: wineCellarImage,
     chefQuote: "Our subterranean cellar houses over 2,200 curated labels dating back to 1961. This flight celebrates historic biodynamic estates whose terroir harmonizes seamlessly with plant-forward cuisine.",
     sommelierPairing: "Curated 5-course library flight including Grand Cru Champagne, Premier Cru & Vintage Port",
     pairingVintage: "Multi-Vintage Sommelier Selection",
@@ -452,7 +466,7 @@ export const GALLERY_ITEMS = [
     id: "g1",
     title: "The Main Dining Room at Dusk",
     category: "Atmosphere",
-    image: "/src/assets/images/hero_restaurant_interior_1793094172948.jpg",
+    image: heroImage,
     caption: "Architectural timber tables and glowing amber candles overlooking San Francisco Bay."
   },
   {

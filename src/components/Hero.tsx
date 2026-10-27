@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Calendar, Users, Clock, ArrowRight, Sparkles } from 'lucide-react';
-import { RESTAURANT_INFO } from '../data/restaurantData';
+import { RESTAURANT_INFO, RESTAURANT_IMAGES } from '../data/restaurantData';
 
 interface HeroProps {
   onQuickBook: (guests: number, date: string, time: string) => void;
@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuickBook, onExploreMenu }) => {
       {/* Background Photography with measured contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_restaurant_interior_1793094172948.jpg"
+          src={RESTAURANT_IMAGES.hero}
           alt="Aurelia main dining room at dusk with glowing candles and wine wall"
           className="w-full h-full object-cover object-center filter brightness-[0.62] contrast-[1.05]"
           referrerPolicy="no-referrer"

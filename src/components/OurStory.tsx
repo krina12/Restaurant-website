@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Award, Compass, Flame, Leaf, Wine } from 'lucide-react';
-import { TIMELINE_EVENTS, TEAM_MEMBERS, TimelineEvent } from '../data/restaurantData';
+import { TIMELINE_EVENTS, TEAM_MEMBERS, TimelineEvent, RESTAURANT_IMAGES } from '../data/restaurantData';
 
 export const OurStory: React.FC = () => {
   const [activeEventIndex, setActiveEventIndex] = useState<number>(TIMELINE_EVENTS.length - 1);
@@ -61,7 +61,7 @@ export const OurStory: React.FC = () => {
           {/* Right Image Showcase */}
           <div className="lg:col-span-6 relative rounded-xl overflow-hidden bg-[#14151A] border border-[#27272A] shadow-2xl">
             <img
-              src="/src/assets/images/restaurant_woodfire_hearth_1793094174668.jpg"
+              src={RESTAURANT_IMAGES.woodfire}
               alt="Artisanal open woodfire hearth at Aurelia"
               className="w-full h-[460px] object-cover object-center filter brightness-[0.88] hover:scale-105 transition-transform duration-700"
               referrerPolicy="no-referrer"
